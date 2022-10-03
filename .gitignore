@@ -1,0 +1,20 @@
+.vscode/
+
+# executable
+*.exe
+*.out
+
+# *.ko
+*.bin
+*.badapple
+*.data
+*.txt
+
+*.doc
+*.docx
+*.ppt
+*.pptx
+
+archive/
+*/temp/
+tempCodeRunnerFile.*
