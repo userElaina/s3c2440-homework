@@ -263,7 +263,9 @@ int main() {
         int a[5];
         for (int j = 0; j < 5; j++) {
             a[j] = font_data[i * 5 + j];
+            printf("0x%02x ", a[j]);
         }
+        putchar(10);
         for (int k = 0; k < 8; k++) {
             for (int j = 0; j < 5; j++) {
                 putchar(a[j] & 1 ? '@' : ' ');
